@@ -23,7 +23,7 @@
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #2a2c39; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #ef1303; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --accent-color2: #ffffff; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color2: #ffffff; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */  
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -616,11 +616,11 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  justify-content: center;
+  /* justify-content: center; */
   padding: 0;
   margin: 0;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .page-title .breadcrumbs ol li+li {
